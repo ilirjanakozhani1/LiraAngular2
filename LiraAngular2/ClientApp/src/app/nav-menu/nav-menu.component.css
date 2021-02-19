@@ -1,0 +1,35 @@
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+.logo a span {
+  color: #1b001b;
+}
+
+.logo a {
+  color:burlywood;
+  font-size: 45px;
+  font-weight: bold;
+  float: left;
+  margin-top: 10px;
+  text-shadow: 0px 3px 2px 0px #1b001b;
+}
+.a{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:large;
+}

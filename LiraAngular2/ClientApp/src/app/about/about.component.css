@@ -1,0 +1,23 @@
+/*about*/
+.about {
+  font-family: 'Poppins', sans-serif;
+}
+
+  .about .title {
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  .about img {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+  }
+  h3{
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 30px;
+      
+  }
+  p{
+      font-size: 20px;
+
+  }

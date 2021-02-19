@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Baloo Chettan 2', cursive;
+}
+
+.navbar {
+  position: absolute;
+  height: 95px;
+  width: 100%;
+}
+
+.max-width {
+  max-width: 1300px;
+}
+
+
+
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+
+.navbar .logo a span {
+  color: #1b001b;
+}
+
+a.active, a:hover {
+  color: #1b001b;
+  background: #fff;
+}
+
+.menu-btn {
+  color: #fff;
+  font-size: 23px;
+  cursor: pointer;
+  display: none;
+}
+
+.home {
+  display: flex;
+  height: 100vh;
+  color: #fff;
+  background: radial-gradient(circle,rgb(225,225,225),rgb(27, 0, 27) ); 
+}
+
+  .home img {
+    margin-top: 40px;
+    background: linear-gradient(rgba(225,225,27,0.8),rgba(162,0,193,0.3));
+  }
+
+  .home .max-width {
+    margin: auto 0 auto 40px;
+  }
+
+  .home .home-content .text-1 {
+    font-size: 27px;
+  }
+
+  .home .home-content .text-2 {
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+  }
+
+  .home .home-content .text-3 {
+    font-size: 40px;
+    margin: 5px 0;
+  }
+
+    .home .home-content .text-3 span {
+      color: #1b001b;
+      font-weight: 500;
+    }
+
+
+.home .home-content a {
+  display: inline-block;
+  background: #1b001b;
+  color: #fff;
+  font-size: 25px;
+  padding: 12px 36px;
+  margin-top: 20px;
+  border-radius: 6px;
+  border: 4px solid #1b001b;
+  transition: all 0.3s ease;
+}
+
+  .home .home-content a:hover {
+    color: #1b001b;
+    background: #fff;
+  }
